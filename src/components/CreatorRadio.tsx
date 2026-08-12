@@ -11,10 +11,10 @@ function InstagramIcon() {
 }
 
 const socials = [
-  { label: 'X', href: 'https://x.com/ramandesigns9', mark: '𝕏' },
-  { label: 'Instagram', href: 'https://www.instagram.com/raman1568/', icon: InstagramIcon },
-  { label: 'Behance', href: 'https://www.behance.net/ramony', mark: 'Bē' },
-  { label: 'GitHub', href: 'https://github.com/Ramonyv', icon: GitHubIcon },
+  { label: 'X', href: 'https://x.com/adarsh_mohan8?fbclid=PAT01DUATpIqxwZG9mAmV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp9aYzgKgpMD0a7U96j9qIcW5CmjCpZP0cEn17DU6-4MczVJqyXsUOr1gEBRf_aem_0XB1dvC1LxaSv8vqPwHeAA', mark: '𝕏' },
+  { label: 'Instagram', href: 'https://www.instagram.com/adarshmohanx/', icon: InstagramIcon },
+  { label: 'Behance', href: 'https://www.behance.net/adarshmohan', mark: 'Bē' },
+  { label: 'GitHub', href: 'https://github.com/arshu1008', icon: GitHubIcon },
 ]
 
 const upiPaymentUrl = 'upi://pay?pa=ramandesigns9%40oksbi&pn=Raman%20Yv&tn=Support%2090s%20Yaadein&cu=INR'
@@ -38,8 +38,8 @@ export function CreatorRadio() {
       <i className="creator-radio__dial" aria-hidden="true" />
     </div>
     <div className="creator-radio__identity">
-      <div><h2>Raman Yv</h2><p>Creator of<br /><strong>90s Yaadein</strong> <Heart size={10} fill="currentColor" /></p></div>
-      <img src="/creator-raman.webp" alt="Raman Yv" />
+      <div><h2>आदर्श मोहन</h2><p>Creator of<br /><strong>90s Yaadein</strong> <Heart size={10} fill="currentColor" /></p></div>
+      <img src="/adarsh-author.webp" alt="आदर्श मोहन" />
     </div>
     <div className="creator-radio__speaker" aria-hidden="true" />
     <button className="creator-radio__support" type="button" onClick={() => setSupportOpen(true)}>
@@ -47,7 +47,7 @@ export function CreatorRadio() {
     </button>
     <div className="creator-radio__footer">
       <span><MapPin size={10} /> Tune in</span>
-      <nav aria-label="Raman Yv on social media">
+      <nav aria-label="आदर्श मोहन on social media">
         {socials.map(({ label, href, mark, icon: Icon }) => <a href={href} target="_blank" rel="noreferrer" aria-label={label} title={label} key={label}>{Icon ? <Icon /> : <b>{mark}</b>}</a>)}
       </nav>
     </div>
@@ -63,12 +63,12 @@ export function CreatorRadio() {
           <h2 id="support-title">Keep these memories playing.</h2>
           <p className="support-sheet__note">If 90s Yaadein brought back a smile, you can help me make the next memory. No pressure—being here already means a lot.</p>
           <div className="support-sheet__qr">
-            <img src="/upi-qr.png?v=1" alt="UPI QR code to support Raman Yv at ramandesigns9@oksbi" />
+            <img src="/upi-qr.png?v=1" alt="UPI QR code to support Adarsh  at adarshdhoni415@okhdfcbank" />
           </div>
           <strong>Scan with any UPI app</strong>
           <a className="support-sheet__pay" href={upiPaymentUrl}>Pay with UPI</a>
-          <small>Paying Raman Yv · ramandesigns9@oksbi</small>
-          <p className="support-sheet__thanks"><Heart size={11} fill="currentColor" /> Thank you for keeping nostalgia alive.</p>
+          <small>Paying Adarsh Mohan · adarshdhoni415@okhdfcbank</small>
+          <p className="support-sheet__thanks"><Heart size={11} fill="currentColor" /> Thank you for keeping 90songs alive.</p>
         </motion.section>
       </motion.div>}
     </AnimatePresence>
